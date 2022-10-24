@@ -1,9 +1,9 @@
-import '../styles/index.css'
+import '../../styles/about.css'
 import Header from '../../components/header.jsx';
 
-function Home() {
+function About() {
     return (<Header/>);
 
 }
 
-export default Home;
+export default About;

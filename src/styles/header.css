@@ -1,0 +1,44 @@
+/* Header */
+
+header {
+    position: absolute;
+    width: 1240px;
+    height: 68px;
+    left: 100px;
+    top: 40px;
+}
+
+/* LOGO */
+
+.kasa-header-logo {
+    position: absolute;
+    left: 0%;
+    right: 83.04%;
+    top: 0%;
+    bottom: 0%;
+}
+
+/* NAV */
+
+.kasa-header-nav {
+    position: absolute;
+    left: 75.08%;
+    right: 0%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.kasa-header-nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kasa-header-nav li {
+    font-size: 24px;
+    color: #FF6060;
+
+    position: absolute;
+    right: 13.95%;
+    top: 25%;
+    bottom: 25%;
+}

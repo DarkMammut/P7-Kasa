@@ -1,0 +1,34 @@
+/* FOOTER */
+
+footer {
+    position: relative;
+    width: 1440px;
+    height: 209px;
+    
+    background: #000000;
+}
+
+/* LOGO */
+
+.kasa-footer-logo {
+    position: absolute;
+    left: 45.76%;
+    right: 45.76%;
+    top: 31.58%;
+    bottom: 49.55%;
+}
+
+/* COPYRIGHT */
+
+.kasa-footer-copyright {
+    font-size: 24px;
+    color: #FFFFFF;
+
+    text-align: right;
+
+    position: absolute;
+    left: 32.15%;
+    right: 32.22%;
+    top: 64.11%;
+    bottom: 13.88%;
+}
