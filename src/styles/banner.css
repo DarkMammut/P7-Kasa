@@ -19,6 +19,8 @@
     mix-blend-mode: darken;
     opacity: 0.3;
     border-radius: 25px;
+
+    background-image: url("../assets/Background-index.png");
 }
 
 .kasa-banner-title {
