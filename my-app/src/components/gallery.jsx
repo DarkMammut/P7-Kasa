@@ -8,4 +8,4 @@ function Gallery() {
     );
 }
 
-export default Banner
+export default Gallery
