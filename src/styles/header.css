@@ -1,44 +1,44 @@
 /* Header */
 
 header {
-    position: absolute;
-    width: 1240px;
-    height: 68px;
-    left: 100px;
-    top: 40px;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 40px;
+    margin-right: 6.94%;
+    margin-left: 6.94%;
 }
 
 /* LOGO */
 
 .kasa-header-logo {
-    position: absolute;
-    left: 0%;
-    right: 83.04%;
-    top: 0%;
-    bottom: 0%;
+    margin: 0;
 }
 
 /* NAV */
 
 .kasa-header-nav {
-    position: absolute;
-    left: 75.08%;
-    right: 0%;
-    top: 25%;
-    bottom: 25%;
+    width: 310px;
+    display: flex;
+    align-self: center;
 }
 
 .kasa-header-nav ul {
     display: flex;
     justify-content: space-between;
+    list-style-type: none;
+    width: 100%;
+    padding-left: 0;
 }
 
+
 .kasa-header-nav li {
+    width: 45%;
+    text-align: right;
+}
+
+.kasa-header-nav a {
     font-size: 24px;
     color: #FF6060;
-
-    position: absolute;
-    right: 13.95%;
-    top: 25%;
-    bottom: 25%;
+    text-decoration: none;
 }

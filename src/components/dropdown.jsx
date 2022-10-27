@@ -7,12 +7,12 @@ function DropDowns() {
 
     dropdowns.forEach(DropDown => {
         return (
-            <div classname = "dropdown">
-                <div classname = "dropdown-wraper">
-                    <div classname="dropdown-title">{DropDown.title}</div>
-                    <i classname="fa-solid fa-chevron-down"></i>
+            <div className = "dropdown">
+                <div className = "dropdown-wraper">
+                    <div className="dropdown-title">{DropDown.title}</div>
+                    <i className="fa-solid fa-chevron-down"></i>
                 </div>
-                <div classname="dropdown-text">
+                <div className="dropdown-text">
                     <p>{DropDown.text}</p>
                 </div>
 

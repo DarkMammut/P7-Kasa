@@ -1,16 +1,7 @@
-body {
-  position: absolute;
-  left: 90.65%;
-  right: 0%;
-  top: 25%;
-  bottom: 25%;
-  
-  font-family: 'Montserrat';
+body {  
   font-style: normal;
   font-weight: 500;
-  line-height: 142.6%; /* or 34px */
-  
-  display: flex;
-  align-items: flex-end;
-  text-align: right;
+  line-height: 142.6%;
+
+  background: #E5E5E5;
 }

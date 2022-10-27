@@ -8,7 +8,7 @@ function Header() {
             <nav className="kasa-header-nav">
                 <ul>
                     <li>
-                        <a href="./Home/home.jsx">Acceuil</a>
+                        <a href="./Home/index.jsx">Acceuil</a>
                     </li>
                     <li>
                         <a href="./About/about.jsx">A Propos</a>

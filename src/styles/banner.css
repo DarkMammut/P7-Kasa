@@ -1,20 +1,10 @@
 /* Banner */
 
 .kasa-banner {
-    position: absolute;
-    width: 1240px;
-    height: 223px;
-    left: 100px;
-    top: 171px;
+
 }
 
 .kasa-banner-background {
-    position: absolute;
-    width: 1240px;
-    height: 223px;
-    left: 100px;
-    top: 171px;
-    
     background: #000000;
     mix-blend-mode: darken;
     opacity: 0.3;
@@ -26,10 +16,4 @@
 .kasa-banner-title {
     font-size: 48px;
     color: #FFFFFF;
-
-    position: absolute;
-    left: 25.9%;
-    right: 25.14%;
-    top: 24.32%;
-    bottom: 69.04%;
 }
