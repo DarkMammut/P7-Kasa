@@ -1,19 +1,35 @@
 /* Banner */
 
 .kasa-banner {
-
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 223px;
+    width: 100%;
+    margin-bottom: 43px;
 }
 
 .kasa-banner-background {
     background: #000000;
-    mix-blend-mode: darken;
-    opacity: 0.3;
     border-radius: 25px;
 
-    background-image: url("../assets/Background-index.png");
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    background-image: url("../assets/Index_background.png");
 }
 
 .kasa-banner-title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 68px;
+    width: 705px;
+
     font-size: 48px;
     color: #FFFFFF;
 }

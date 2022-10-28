@@ -1,3 +1,4 @@
+import React from 'react'
 import logo from '../assets/logo-header.png';
 import '../styles/header.css'
 
@@ -8,10 +9,10 @@ function Header() {
             <nav className="kasa-header-nav">
                 <ul>
                     <li>
-                        <a href="./Home/index.jsx">Acceuil</a>
+                        <a href="http://localhost:3000">Acceuil</a>
                     </li>
                     <li>
-                        <a href="./About/about.jsx">A Propos</a>
+                        <a href="http://localhost:3000/About">A Propos</a>
                     </li>
                 </ul>
             </nav>

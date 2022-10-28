@@ -1,9 +1,13 @@
+import React from 'react'
 import '../../styles/404.css'
-import NotFound from '../../components/404.jsx';
 
-function About() {
-    return (<NotFound/>);
+function NotFound() {
+    return (
+        <main>
+            <div>404</div>
+        </main>
+    );
 
 }
 
-export default About;
+export default NotFound;

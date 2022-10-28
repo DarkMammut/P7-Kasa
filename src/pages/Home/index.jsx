@@ -1,9 +1,15 @@
+import React from 'react'
 import '../../styles/index.css'
 import Banner from '../../components/banner.jsx';
 import Gallery from '../../components/gallery.jsx';
 
 function Home() {
-    return (<Banner/>,<Gallery/>);
+    return (
+        <main>
+            <Banner/>
+            <Gallery/>
+        </main>
+    );
 
 }
 
