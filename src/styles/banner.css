@@ -7,7 +7,6 @@
     justify-content: center;
     height: 223px;
     width: 100%;
-    margin-bottom: 43px;
 }
 
 .kasa-banner-background {
@@ -19,17 +18,17 @@
     bottom: 0;
     right: 0;
     left: 0;
-
-    background-image: url("../assets/Index_background.png");
 }
 
 .kasa-banner-title {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: center;
     height: 68px;
     width: 705px;
 
     font-size: 48px;
     color: #FFFFFF;
+
+    z-index: 1;
 }

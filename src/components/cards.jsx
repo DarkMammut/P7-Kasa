@@ -2,17 +2,18 @@ import React from 'react'
 import '../styles/cards.css';
 
 function Cards(props) {
-    console.log(props.rent)
 
     let background = {
-        backgroundimage: `url(${props.rent.cover})`
+        backgroundImage: `url(${props.rent.cover})`
     };
+
+    let url = `/${props.rent.id}`
     
     return (
-        <div id={props.rent.id} className = "card">
+        <a className = "card" href={url}>
             <div className="card-cover" style={background}></div>
             <span className="card-title">{props.rent.title}</span>
-        </div>
+        </a>
     );
 }
 

@@ -6,7 +6,7 @@ import DropDowns from '../../components/dropdown.jsx'
 function About() {
     return (
         <main>
-            <Banner/>
+            <Banner backgroundUrl={"/About_background.png"}/>
             <DropDowns/>
         </main>);
 

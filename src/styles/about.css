@@ -4,11 +4,3 @@ main {
     align-items: center;
 }
 
-.kasa-banner-background {
-    background-image: url("../assets/About_background.png");
-}
-
-.kasa-banner-title {
-    display: none;
-}
-

@@ -1,82 +1,85 @@
 .dropdowns-wrapper {
+    position: relative;
     width: 1023px;
+    margin-top: 31px;
 }
 
 .dropdowns-header {
     display: flex;
-    position: relative;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
     background: #FF6060;
     border-radius: 5px;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 47px;
 }
 
 .dropdowns-header-title {
     font-size: 24px;
-
     display: flex;
     align-items: center;
-    width: 23.86px;
-    height: 14.06px;
+    height: 34px;
     margin-left: 18.08px;
-    margin-bottom: 7.25px;
 
 
     color: #FFFFFF;
 }
 
 .dropdowns-header-chevron {
-    position:relative;
-    left: 33.14px;
-    bottom: 16.86px;
+    transform: rotate(-180deg);
+    margin-right: 33px;
+}
 
-    background: #FFFFFF;
-    transform: rotate(90deg);
-
-    animation-duration: 3s;
-    animation-name: collapse;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+.dropdowns-header-chevron[collapse='1'] {
+    animation: rotate 1s 1 forwards;
 }
 
 .dropdowns-text {
-    background: #F7F7F7;
-    border-radius: 5px;
-}
-
-.dropdowns p {
     font-weight: 400;
     font-size: 24px;
-
     color: #FF6060;
+    background: #F7F7F7;
+    border-radius: 5px;
+
+    margin-top: 38px;
+    padding-left: 18px;
+    padding-right: 27px;
+    padding-top: 36px;
+    padding-bottom: 19px;
 }
 
-
-
-
-
-@keyframes collapse {
-    from {
-        height: 0%;
-    }
-    75% {
-      height: 50%;
-    }
-  
-    to {
-      height: 100%;
-    }
+.dropdowns-text[collapse='1'] {
+    animation: appear 1s 1 forwards;
 }
+
 
 @keyframes rotate {
     from {
-        transform: rotate(90deg);
+        transform: rotate(-180deg);
     }
     75% {
-        transform: rotate(0deg);
+        transform: rotate(-90deg);
     }
   
     to {
-        transform: rotate(-90deg);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes appear {
+
+    from {
+        transform: scale(0);
+    }
+
+    75% {
+        transform: scale(0.5);
+    }
+
+    to {
+        transform: scale(1);
     }
 }

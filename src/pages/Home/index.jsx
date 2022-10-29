@@ -6,7 +6,7 @@ import Gallery from '../../components/gallery.jsx';
 function Home() {
     return (
         <main>
-            <Banner/>
+            <Banner text="Chez vous, partout et ailleurs" backgroundUrl={"/Index_background.png"}/>
             <Gallery/>
         </main>
     );

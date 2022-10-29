@@ -1,0 +1,43 @@
+.PageNotFound-404 {
+    font-weight: 700;
+    font-size: 288px;
+
+    width: 597px;
+    height: 263px;
+    margin-top: 106px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: #FF6060;
+}
+
+.PageNotFound-Text {
+    font-weight: 500;
+    font-size: 36px;
+
+    width: 872px;
+    height: 51px;
+    margin-top:66px;
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FF6060;
+}
+
+.PageNotFound-Home {
+    font-weight: 500;
+    font-size: 18px;
+
+    width: 284px;
+    height: 26px;
+    margin-top:182px;
+
+    display: flex;
+    align-items: flex-end;
+    text-decoration-line: underline;
+
+    color: #FF6060;
+}

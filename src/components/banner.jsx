@@ -1,11 +1,11 @@
 import React from 'react'
 import '../styles/banner.css'
 
-function Banner() {
+function Banner({text,backgroundUrl}) {
     return (
         <section className = "kasa-banner">
-            <div className="kasa-banner-background"/>
-            <span className="kasa-banner-title">Chez vous, partout et ailleurs</span>
+            {backgroundUrl && <div className="kasa-banner-background" style={{backgroundImage:`url(${backgroundUrl})`}}/>}
+            {text  && <span className="kasa-banner-title">{text}</span> }
         </section>
     );
 }

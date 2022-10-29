@@ -5,7 +5,6 @@ import Cards from '../components/cards.jsx'
 let rentals = require('../assets/rentals.json')
 
 function Gallery() {
-    console.log(rentals)
     return (
         <section className = "cards-wrapper">
             {rentals.map(rent => <Cards rent={rent}/> )}
