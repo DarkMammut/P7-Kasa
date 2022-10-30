@@ -7,7 +7,7 @@ function Cards(props) {
         backgroundImage: `url(${props.rent.cover})`
     };
 
-    let url = `/${props.rent.id}`
+    let url = `/?id=${props.rent.id}`
     
     return (
         <a className = "card" href={url}>
