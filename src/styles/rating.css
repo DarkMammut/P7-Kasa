@@ -1,0 +1,9 @@
+.Rating {
+    display: flex;
+    flex-direction: row;
+    width: 190px;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    top: 540px;
+}

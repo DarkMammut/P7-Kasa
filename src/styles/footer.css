@@ -3,14 +3,15 @@
 footer {
     display: flex;
     flex-direction: column;
-    position:absolute;
+    position: absolute;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     background: #000000;
     margin-top: 63px;
     left: 0;
     right: 0;
     height: 209px;
+
 }
 
 /* LOGO */

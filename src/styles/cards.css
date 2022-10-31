@@ -12,6 +12,7 @@
     height: 340px;
     width: 340px;
     border-radius: 10px;
+    background-position: center;
 }
 
 .card-title {

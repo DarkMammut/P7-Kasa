@@ -3,16 +3,19 @@ import logo from '../assets/logo-header.png';
 import '../styles/header.css'
 
 function Header() {
+
     return (
         <header className="kasa-header">
-            <img src={logo} className="kasa-header-logo" alt="kasa-logo" />
+            <a href="/">
+                <img src={logo} className="kasa-header-logo" alt="kasa-logo"/>
+            </a>
             <nav className="kasa-header-nav">
                 <ul>
                     <li>
-                        <a href="http://localhost:3000">Acceuil</a>
+                        <a href="/">Acceuil</a>
                     </li>
                     <li>
-                        <a href="http://localhost:3000/About">A Propos</a>
+                        <a href="/About">A Propos</a>
                     </li>
                 </ul>
             </nav>
