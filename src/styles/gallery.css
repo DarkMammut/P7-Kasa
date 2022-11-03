@@ -1,12 +1,24 @@
 .cards-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    background: #F7F7F7;
-    border-radius: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  background: #f7f7f7;
+  border-radius: 25px;
 
-    margin-top: 43px;
-    padding-top: 31px;
-    padding-bottom: 31px;
-    padding-left: 25px;
-    padding-right: 25px;
+  margin-top: 43px;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .cards-wrapper {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+/* medium devices (tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1280px) {
 }

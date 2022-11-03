@@ -1,28 +1,57 @@
 .card {
-    display: flex;
-    position: relative;
-    height: 340px;
-    width: 340px;
-    margin: 25px;
-    background: linear-gradient(180deg, rgba(255, 96, 96, 1) 0%, rgba(0, 0, 0, 0.5) 100%);
-    border-radius: 10px;
+  display: flex;
+  position: relative;
+  height: 340px;
+  width: 340px;
+  margin: 25px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 96, 96, 1) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  border-radius: 10px;
 }
 
-.card-cover{
-    height: 340px;
-    width: 340px;
-    border-radius: 10px;
-    background-position: center;
+.card-cover {
+  height: 340px;
+  width: 340px;
+  border-radius: 10px;
+  background-position: center;
 }
 
 .card-title {
-    display: flex;
-    align-items: flex-end;
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    width: 300px;
-    height: 52px;
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 300px;
+  height: 52px;
 
-    color: #FFFFFF;
+  font-size: 18px;
+
+  color: #ffffff;
+}
+
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .card {
+    height: 255px;
+    width: 100%;
+  }
+
+  .card-cover {
+    height: 255px;
+    width: 100%;
+  }
+
+  .card-title {
+    bottom: 15px;
+    width: 217px;
+    height: 48px;
+  }
+}
+
+/* medium devices (tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1280px) {
 }

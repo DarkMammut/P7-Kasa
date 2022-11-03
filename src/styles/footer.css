@@ -1,36 +1,62 @@
 /* FOOTER */
 
 footer {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    align-items: center;
-    justify-content: flex-start;
-    background: #000000;
-    margin-top: 63px;
-    left: 0;
-    right: 0;
-    height: 209px;
-
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  justify-content: flex-start;
+  background: #000000;
+  overflow: hidden;
+  margin-top: 63px;
+  left: 0;
+  right: 0;
+  height: 209px;
 }
 
 /* LOGO */
 
 .kasa-footer-logo {
-    margin-top: 66px;
-    width: 122px;
-    height: 39.44px;
+  margin-top: 66px;
+  width: 122px;
+  height: 39.44px;
 }
 
 /* COPYRIGHT */
 
 .kasa-footer-copyright {
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    font-size: 24px;
-    color: #FFFFFF;
-    margin-bottom: 29px;
-    width: 513px;
-    height: 46px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 29px;
+  width: 513px;
+  height: 46px;
+}
+
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* FOOTER */
+
+  footer {
+    margin-top: 63px;
+  }
+
+  /* LOGO */
+
+  .kasa-footer-logo {
+    margin-top: 62px;
+  }
+
+  /* COPYRIGHT */
+
+  .kasa-footer-copyright {
+    font-size: 12px;
+    margin-bottom: 62px;
+  }
+}
+
+/* medium devices (tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1280px) {
 }

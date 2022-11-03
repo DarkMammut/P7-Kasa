@@ -1,27 +1,51 @@
 /* Banner */
 
 .kasa-banner {
-    display: flex;
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    height: 223px;
-    width: 100%;
-    margin-top: 63px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  height: 223px;
+  width: 100%;
+  margin-top: 63px;
 }
 
 .kasa-banner-background {
-    background: #000000;
-    border-radius: 25px;
+  background: #000000;
+  border-radius: 25px;
 
-    position:absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 .kasa-banner-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 68px;
+  width: 705px;
+
+  font-size: 48px;
+  color: #ffffff;
+
+  z-index: 1;
+}
+
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .kasa-banner {
+    height: 111px;
+    width: 100%;
+    margin-top: 16px;
+  }
+
+  .kasa-banner-background {
+  }
+
+  .kasa-banner-title {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,7 +53,12 @@
     width: 705px;
 
     font-size: 48px;
-    color: #FFFFFF;
+    color: #ffffff;
 
     z-index: 1;
+  }
+}
+
+/* medium devices (tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1280px) {
 }
