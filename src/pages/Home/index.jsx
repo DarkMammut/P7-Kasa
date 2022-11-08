@@ -9,6 +9,7 @@ function Home() {
       <Banner
         text="Chez vous, partout et ailleurs"
         backgroundUrl={"/Index_background.png"}
+        mHeight="mobile-banner"
       />
       <Gallery />
     </main>

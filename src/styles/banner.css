@@ -38,12 +38,22 @@
 /* small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .kasa-banner {
-    height: 111px;
+    min-height: 111px;
     margin-top: 16px;
     justify-content: flex-start;
   }
 
   .kasa-banner-background {
+    border-radius: 10px;
+  }
+
+  .mobile-banner {
+    height: 111px;
+    border-radius: 10px;
+  }
+
+  .about-mobile-banner {
+    height: 223px;
     border-radius: 10px;
   }
 
