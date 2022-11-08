@@ -20,6 +20,8 @@
   position: Absolute;
   top: 150px;
   left: 23px;
+  width: 48px;
+  height: 80px;
 
   cursor: pointer;
 
@@ -30,8 +32,51 @@
   position: Absolute;
   top: 150px;
   right: 23px;
+  width: 48px;
+  height: 80px;
 
   cursor: pointer;
 
   z-index: 1;
+}
+
+.Slider svg {
+  width: 48px;
+  height: 80px;
+}
+
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Slider {
+    width: 100%;
+    height: 255px;
+    margin-top: 27px;
+  }
+
+  .Slider-CurrentPicture {
+    border-radius: 10px;
+  }
+
+  .Slider-Arrow-Left {
+    top: 118px;
+    left: 6px;
+    width: 11.67px;
+    height: 19.8px;
+  }
+
+  .Slider-Arrow-Right {
+    top: 118px;
+    right: 6px;
+    width: 11.67px;
+    height: 19.8px;
+  }
+
+  .Slider svg {
+    width: 11.67px;
+    height: 19.8px;
+  }
+}
+
+/* medium devices (tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1280px) {
 }

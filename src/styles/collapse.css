@@ -181,3 +181,159 @@
     height: auto;
   }
 }
+
+/* Media queries */
+
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  /* Product pages */
+
+  .collapse-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .collapse-header {
+    border-radius: 5px;
+    height: 30px;
+  }
+
+  .collapse-header-title {
+    font-size: 13px;
+    height: 19px;
+    margin-left: 11.5px;
+  }
+
+  .collapse-header-chevron {
+    margin-right: 10px;
+    width: 15.2px;
+    height: 8.96px;
+  }
+
+  .collapse-content {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .collapse-content-text {
+    font-size: 12px;
+
+    margin-top: 23px;
+    margin-left: 11.5px;
+    margin-right: 7px;
+    margin-bottom: 1px;
+  }
+
+  /* About page */
+
+  .about-collapse-container {
+    width: 100%;
+    margin-top: 19px;
+  }
+
+  .about-collapse-header {
+    height: 30px;
+  }
+
+  .about-collapse-header-title {
+    font-size: 13px;
+    height: 19px;
+    margin-left: 11.5px;
+  }
+
+  .about-collapse-header-chevron {
+    margin-right: 10px;
+    width: 15.2px;
+    height: 8.96px;
+  }
+
+  .about-collapse-content {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .about-collapse-content-text {
+    font-size: 12px;
+
+    margin-top: 23px;
+    margin-left: 11.5px;
+    margin-right: 7px;
+  }
+}
+
+/* medium devices (tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1280px) {
+  /* Product pages */
+
+  .collapse-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .collapse-header {
+    border-radius: 5px;
+    height: 30px;
+  }
+
+  .collapse-header-title {
+    font-size: 13px;
+    height: 19px;
+    margin-left: 11.5px;
+  }
+
+  .collapse-header-chevron {
+    margin-right: 10px;
+    width: 15.2px;
+    height: 8.96px;
+  }
+
+  .collapse-content {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .collapse-content-text {
+    font-size: 12px;
+
+    margin-top: 23px;
+    margin-left: 11.5px;
+    margin-right: 7px;
+    margin-bottom: 1px;
+  }
+
+  /* About page */
+
+  .about-collapse-container {
+    width: 100%;
+    margin-top: 30px;
+  }
+
+  .about-collapse-header {
+    height: 35px;
+  }
+
+  .about-collapse-header-title {
+    font-size: 16px;
+    height: 19px;
+    margin-left: 11.5px;
+  }
+
+  .about-collapse-header-chevron {
+    margin-right: 10px;
+    width: 20px;
+    height: 12px;
+  }
+
+  .about-collapse-content {
+    width: 100%;
+    margin-top: 24px;
+  }
+
+  .about-collapse-content-text {
+    font-size: 16px;
+
+    margin-top: 23px;
+    margin-left: 11.5px;
+    margin-right: 7px;
+  }
+}

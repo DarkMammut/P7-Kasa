@@ -7,3 +7,27 @@
   right: 0;
   top: 540px;
 }
+
+.Rating svg {
+  width: 30px;
+  height: 30px;
+}
+
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Rating {
+    width: 98px;
+    top: 415px;
+    left: 20px;
+    right: auto;
+  }
+
+  .Rating svg {
+    width: 15px;
+    height: 15px;
+  }
+}
+
+/* medium devices (tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1280px) {
+}

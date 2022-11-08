@@ -72,4 +72,28 @@
 
 /* medium devices (tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 1280px) {
+  .PageNotFound-404 {
+    font-size: 170px;
+
+    width: 230px;
+    height: 150px;
+    margin-top: 140px;
+  }
+
+  .PageNotFound-Text {
+    font-size: 24px;
+
+    width: 290px;
+    height: 52px;
+    margin-top: 11px;
+  }
+
+  .PageNotFound-Home {
+    font-size: 18px;
+
+    width: 280px;
+    height: 20px;
+    margin-top: 133px;
+    text-align: center;
+  }
 }

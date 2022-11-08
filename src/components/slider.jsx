@@ -17,8 +17,6 @@ function ImageSlider({ slides }) {
     <div className="Slider">
       <div className="Slider-Arrow-Left" onClick={prevSlide}>
         <svg
-          width="48"
-          height="80"
           viewBox="0 0 48 80"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

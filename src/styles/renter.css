@@ -10,6 +10,7 @@
 .Renter-Name {
   display: flex;
   text-align: right;
+  width: 93px;
   height: 52px;
   margin-right: 10px;
 
@@ -19,8 +20,6 @@
   font-size: 18px;
 
   align-items: center;
-
-  width: 70px;
 }
 
 .Renter-Picture {
@@ -30,4 +29,26 @@
   border-radius: 50%;
   background-position: center;
   background-size: cover;
+}
+
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Renter {
+    top: 405px;
+    right: 20px;
+  }
+  
+  .Renter-Name {
+    height: 33px;
+    font-size: 12px;
+  }
+  
+  .Renter-Picture {
+    height: 32px;
+    width: 32px;
+  }
+}
+
+/* medium devices (tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1280px) {
 }

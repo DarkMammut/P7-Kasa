@@ -24,3 +24,26 @@
 
   color: #ffffff;
 }
+
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .Tags {
+    margin-top: 10px;
+    margin-bottom: 45px;
+    flex-wrap: wrap;
+  }
+
+  .Tags-Button {
+    border-radius: 5px;
+    min-width: 84px;
+    height: 18px;
+  }
+
+  .Tags-Button-Title {
+    font-size: 10px;
+  }
+}
+
+/* medium devices (tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1280px) {
+}

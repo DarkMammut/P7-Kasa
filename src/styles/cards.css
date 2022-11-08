@@ -38,6 +38,10 @@
   .card {
     height: 255px;
     width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
   }
 
   .card-cover {
@@ -54,4 +58,24 @@
 
 /* medium devices (tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 1280px) {
+  .card {
+    height: auto;
+    width: 40%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 5%;
+    margin-bottom: 0;
+  }
+
+  .card-cover {
+    width: 100%;
+    max-height: 275px;
+  }
+
+  .card-title {
+    bottom: 15px;
+    width: 217px;
+    height: 48px;
+  }
 }
+

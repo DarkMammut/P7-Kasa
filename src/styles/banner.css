@@ -8,10 +8,12 @@
   height: 223px;
   width: 100%;
   margin-top: 63px;
+
 }
 
 .kasa-banner-background {
   background: #000000;
+  background-position: center;
   border-radius: 25px;
 
   position: absolute;
@@ -38,27 +40,35 @@
 @media only screen and (max-width: 600px) {
   .kasa-banner {
     height: 111px;
-    width: 100%;
     margin-top: 16px;
+    justify-content:flex-start
   }
 
   .kasa-banner-background {
+    border-radius: 10px;
   }
 
   .kasa-banner-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 68px;
-    width: 705px;
+    height: 48px;
+    width: 217px;
+    margin-left: 16px;
 
-    font-size: 48px;
-    color: #ffffff;
-
-    z-index: 1;
+    font-size: 24px;
   }
 }
 
 /* medium devices (tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 1280px) {
+  .kasa-banner {
+    height: 200px;
+    margin-top: 30px;
+  }
+
+  .kasa-banner-background {
+    border-radius: 15px;
+  }
+
+  .kasa-banner-title {
+    font-size: 32px;
+  }
 }

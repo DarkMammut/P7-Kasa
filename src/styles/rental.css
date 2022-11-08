@@ -31,3 +31,31 @@ main {
   justify-content: space-between;
   width: 100%;
 }
+
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  main {
+    width: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .Rental-Title {
+    font-size: 18px;
+    margin-top: 15px;
+    height: 46px;
+  }
+
+  .Rental-Location {
+    font-size: 14px;
+    height: 22px;
+  }
+
+  .Rental-Collapse {
+    flex-direction: column;
+  }
+}
+
+/* medium devices (tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 1280px) {
+}
