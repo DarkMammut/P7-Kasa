@@ -1,5 +1,5 @@
-import React from 'react';
-import '../styles/cards.css';
+import React from "react";
+import "../styles/cards.css";
 
 function Cards({ rent }) {
   let background = {

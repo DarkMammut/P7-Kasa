@@ -37,12 +37,12 @@
     top: 405px;
     right: 20px;
   }
-  
+
   .Renter-Name {
     height: 33px;
     font-size: 12px;
   }
-  
+
   .Renter-Picture {
     height: 32px;
     width: 32px;
@@ -51,4 +51,12 @@
 
 /* medium devices (tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 1280px) {
+  .Renter {
+    top: 350px;
+    right: 40px;
+  }
+
+  .Renter-Name {
+    height: 33px;
+  }
 }

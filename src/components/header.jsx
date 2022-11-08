@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import logo from '../assets/logo-header.png';
-import '../styles/header.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import logo from "../assets/logo-header.png";
+import "../styles/header.css";
 
 function Header() {
   return (

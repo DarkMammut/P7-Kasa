@@ -1,12 +1,12 @@
-import React from 'react';
-import '../styles/collapse.css';
+import React from "react";
+import "../styles/collapse.css";
 
 function Collapse({ title, text }) {
   let path = window.location.pathname;
-  let cna = '';
+  let cna = "";
 
-  if (path === '/About') {
-    cna = 'about-';
+  if (path === "/About") {
+    cna = "about-";
   }
   const [collapse, setCollapse] = React.useState(0);
 

@@ -72,28 +72,28 @@ header {
 
 /* medium devices (tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 1280px) {
-    /* Header */
+  /* Header */
 
-    header {
-      margin-top: 40px;
-      margin-left: 40px;
-      margin-right: 40px;
-    }
-  
-    /* LOGO */
-  
-    .kasa-header-logo {
-      width: 170px;
-      height: 67px;
-    }
-  
-    /* NAV */
-  
-    .kasa-header-nav {
-      width: 200px;
-    }
-  
-    .kasa-header-nav a {
-      font-size: 18px;
-    }
+  header {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  /* LOGO */
+
+  .kasa-header-logo {
+    width: 170px;
+    height: 67px;
+  }
+
+  /* NAV */
+
+  .kasa-header-nav {
+    width: 200px;
+  }
+
+  .kasa-header-nav a {
+    font-size: 18px;
+  }
 }

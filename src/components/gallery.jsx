@@ -1,7 +1,7 @@
-import React from 'react';
-import '../styles/gallery.css';
-import Cards from '../components/cards.jsx';
-import rentals from '../assets/rentals.json';
+import React from "react";
+import "../styles/gallery.css";
+import Cards from "../components/cards.jsx";
+import rentals from "../assets/rentals.json";
 
 function Gallery() {
   return (

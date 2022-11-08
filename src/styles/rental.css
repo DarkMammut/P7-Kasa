@@ -58,4 +58,20 @@ main {
 
 /* medium devices (tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 1280px) {
+  main {
+    width: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .Rental-Title {
+    font-size: 22px;
+    margin-top: 20px;
+    height: 55px;
+  }
+
+  .Rental-Location {
+    font-size: 18px;
+    height: 30px;
+  }
 }

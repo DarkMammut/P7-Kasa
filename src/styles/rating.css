@@ -30,4 +30,14 @@
 
 /* medium devices (tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 1280px) {
+  .Rating {
+    top: 445px;
+    right: 40px;
+    width: 150px;
+  }
+
+  .Rating svg {
+    width: 25px;
+    height: 25px;
+  }
 }

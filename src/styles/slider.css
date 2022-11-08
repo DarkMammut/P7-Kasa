@@ -79,4 +79,32 @@
 
 /* medium devices (tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 1280px) {
+  .Slider {
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+  }
+
+  .Slider-CurrentPicture {
+    border-radius: 15px;
+  }
+
+  .Slider-Arrow-Left {
+    top: 130px;
+    left: 20px;
+    width: 20px;
+    height: 30px;
+  }
+
+  .Slider-Arrow-Right {
+    top: 130px;
+    right: 20px;
+    width: 20px;
+    height: 30px;
+  }
+
+  .Slider svg {
+    width: 20px;
+    height: 30px;
+  }
 }

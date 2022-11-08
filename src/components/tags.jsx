@@ -1,5 +1,5 @@
-import React from 'react';
-import '../styles/tags.css';
+import React from "react";
+import "../styles/tags.css";
 
 function Tags({ tags }) {
   return (

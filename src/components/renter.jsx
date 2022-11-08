@@ -1,5 +1,5 @@
-import React from 'react';
-import '../styles/renter.css';
+import React from "react";
+import "../styles/renter.css";
 
 function Renter({ host }) {
   let background = {

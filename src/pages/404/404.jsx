@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import '../../styles/404.css';
+import React from "react";
+import { Link } from "react-router-dom";
+import "../../styles/404.css";
 
 function PageNotFound() {
   return (

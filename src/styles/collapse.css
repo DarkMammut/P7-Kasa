@@ -266,25 +266,25 @@
   /* Product pages */
 
   .collapse-container {
-    width: 100%;
+    width: 45%;
     margin-top: 20px;
   }
 
   .collapse-header {
     border-radius: 5px;
-    height: 30px;
+    height: 40px;
   }
 
   .collapse-header-title {
-    font-size: 13px;
-    height: 19px;
-    margin-left: 11.5px;
+    font-size: 16px;
+    height: 23px;
+    margin-left: 15px;
   }
 
   .collapse-header-chevron {
     margin-right: 10px;
-    width: 15.2px;
-    height: 8.96px;
+    width: 18px;
+    height: 11px;
   }
 
   .collapse-content {
@@ -293,7 +293,7 @@
   }
 
   .collapse-content-text {
-    font-size: 12px;
+    font-size: 16px;
 
     margin-top: 23px;
     margin-left: 11.5px;
