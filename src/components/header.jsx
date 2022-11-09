@@ -1,60 +1,17 @@
-import React  from "react";
+import React from "react";
+import { useLocation } from "react-router-dom";
 import { Link } from "react-router-dom";
-
 import logo from "../assets/logo-header.png";
 import "../styles/header.css";
 
-let path = window.location.pathname
-
-function renderSwitch(page) {
-  switch (path) {
-    case "/":  // Home page path
-      switch (page) {
-        case "/About":
-          return <Link to={page} style={{ textDecoration: "none" }}>A Propos</Link>;
-
-        case "/":
-          return (
-            <Link to={page} style={{ textDecoration: "underline" }}>
-              Acceuil
-            </Link>
-          );
-
-        default:
-          return <Link to={page} style={{ textDecoration: "none" }}>{page}</Link>;
-      }
-
-    case "/About": // About page path
-      switch (page) {
-        case "/About":
-          return (
-            <Link to={page} style={{ textDecoration: "underline" }}>
-              A Propos
-            </Link>
-          );
-
-        case "/":
-          return <Link to={page} style={{ textDecoration: "none" }}>Acceuil</Link>;
-
-        default:
-          return <Link to={page} style={{ textDecoration: "none" }}>{page}</Link>;
-      }
-
-    default: // Default page path
-      switch (page) {
-        case "/About":
-          return <Link to={page} style={{ textDecoration: "none" }}>A Propos</Link>;
-
-        case "/":
-          return <Link to={page} style={{ textDecoration: "none" }}>Acceuil</Link>;
-
-        default:
-          return <Link to={page} style={{ textDecoration: "none" }}>{page}</Link>;
-      }
-  }
-}
+const LINKS = [
+  { name: "Acceuil", path: "/" },
+  { name: "About", path: "/About" },
+];
 
 function Header() {
+  let location = useLocation();
+
   return (
     <header className="kasa-header">
       <Link to="/">
@@ -62,8 +19,13 @@ function Header() {
       </Link>
       <nav className="kasa-header-nav">
         <ul>
-          <li>{renderSwitch("/")}</li>
-          <li>{renderSwitch("/About")}</li>
+          {LINKS.map((link) => (
+            <li>
+              <Link to={link.path} style={{ textDecoration: link.path === location.pathname ? "underline" : "none" }}>
+                {link.name}
+              </Link>
+            </li>
+          ))}
         </ul>
       </nav>
     </header>
