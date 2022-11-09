@@ -21,7 +21,13 @@ function Header() {
         <ul>
           {LINKS.map((link) => (
             <li>
-              <Link to={link.path} style={{ textDecoration: link.path === location.pathname ? "underline" : "none" }}>
+              <Link
+                to={link.path}
+                style={{
+                  textDecoration:
+                    link.path === location.pathname ? "underline" : "none",
+                }}
+              >
                 {link.name}
               </Link>
             </li>
