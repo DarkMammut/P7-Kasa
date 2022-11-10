@@ -6,7 +6,7 @@ import "../styles/header.css";
 
 const LINKS = [
   { name: "Acceuil", path: "/" },
-  { name: "About", path: "/About" },
+  { name: "A Propos", path: "/About" },
 ];
 
 function Header() {
@@ -20,7 +20,7 @@ function Header() {
       <nav className="kasa-header-nav">
         <ul>
           {LINKS.map((link) => (
-            <li>
+            <li key={link.name}>
               <Link
                 to={link.path}
                 style={{

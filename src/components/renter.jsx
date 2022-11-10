@@ -6,9 +6,17 @@ function Renter({ host }) {
     backgroundImage: `url(${host.picture})`,
   };
 
+  const renterName = host.name
+  const nameArray = renterName.split(" ");
+  const firstName = nameArray[0];
+  const lastName = nameArray[1];
+
   return (
     <div className="Renter">
-      <span className="Renter-Name">{host.name}</span>
+      <div className="Renter-Name">
+        <span>{firstName}</span>
+        <span>{lastName}</span>
+      </div>
       <div className="Renter-Picture" style={background}></div>
     </div>
   );

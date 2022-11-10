@@ -9,7 +9,7 @@
 
 .Renter-Name {
   display: flex;
-  text-align: right;
+  flex-direction: column;
   width: 93px;
   height: 52px;
   margin-right: 10px;
@@ -20,6 +20,12 @@
   font-size: 18px;
 
   align-items: center;
+  justify-content: center;
+}
+
+.Renter-Name span {
+  width: 100%;
+  text-align: right;
 }
 
 .Renter-Picture {
